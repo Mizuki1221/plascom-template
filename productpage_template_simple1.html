@@ -1,0 +1,232 @@
+<!-- 
+    /////////////////////////////////
+    //          商品説明 02         //
+    /////////////////////////////////
+-->
+
+
+<!-- 商品特徴 (目次) -->
+<div id="productSubscriptions02">
+
+    <!-- 商品用途 / 特徴 -->
+    <section id="features" class="features-section">
+        <section class="toc-section">
+            <div class="container">
+                <ul class="toc-list row row--center">
+                    <!-- 目次リンクは固定のため変更不要 -->
+                    <li class="col-pc-2 col-sp-4">
+                        <a href="#features">
+                            <h3>商品特徴</h3>
+                            <img src="https://gigaplus.makeshop.jp/plascom/renewal/product_detail_template/sec02_ic01.svg"
+                                alt="商品特徴" />
+                            <svg width="22" height="13" viewBox="0 0 22 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.2529 0.716797L10.9752 10.7168L0.697374 0.716796" stroke="#3BBDE6"
+                                    stroke-width="2"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="col-pc-2 col-sp-4">
+                        <a href="#specifications">
+                            <h3>仕様</h3>
+                            <img src="https://gigaplus.makeshop.jp/plascom/renewal/product_detail_template/sec02_ic02.svg"
+                                alt="仕様" />
+                            <svg width="22" height="13" viewBox="0 0 22 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.2529 0.716797L10.9752 10.7168L0.697374 0.716796" stroke="#3BBDE6"
+                                    stroke-width="2"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="col-pc-2 col-sp-4">
+                        <a href="#review">
+                            <h3>レビュー</h3>
+                            <img src="https://gigaplus.makeshop.jp/plascom/renewal/product_detail_template/sec02_ic03.svg"
+                                alt="レビュー" />
+                            <svg width="22" height="13" viewBox="0 0 22 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.2529 0.716797L10.9752 10.7168L0.697374 0.716796" stroke="#3BBDE6"
+                                    stroke-width="2"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ▼▼▼ 商品用途 / 特徴 ▼▼▼ -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2 class="h2A product-section__title color--white bg--blue">
+                    商品用途 / 特徴
+                </h2>
+
+                <ul class="features-section-list">
+                    <li class="row">
+                        <div class="col-pc-6 col-sp-12 features-section-list__image"><img
+                                src="https://gigaplus.makeshop.jp/plascom/renewal/product_detail_template/dummy_3_2.jpg"
+                                alt="商品特徴" /></div>
+                        <div class="col-pc-6 col-sp-12 features-section-list__item">
+                            <h3>{{product_feature_1_title}}</h3>
+                            <p>
+                                {{product_feature_1_description}}
+                            </p>
+                        </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-pc-6 col-sp-12 features-section-list__image"><img
+                                src="https://gigaplus.makeshop.jp/plascom/renewal/product_detail_template/dummy_3_2.jpg"
+                                alt="商品特徴" /></div>
+                        <div class="col-pc-6 col-sp-12 features-section-list__item">
+                            <h3>{{product_feature_2_title}}</h3>
+                            <p>
+                                {{product_feature_2_description}}
+                            </p>
+                        </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-pc-6 col-sp-12 features-section-list__image"><img
+                                src="https://gigaplus.makeshop.jp/plascom/renewal/product_detail_template/dummy_3_2.jpg"
+                                alt="商品特徴" /></div>
+                        <div class="col-pc-6 col-sp-12 features-section-list__item">
+                            <h3>{{product_feature_3_title}}</h3>
+                            <p>
+                                {{product_feature_3_description}}
+                            </p>
+                        </div>
+                    </li>
+                    <li class="row">
+                        <div class="col-pc-12 col-sp-12 features-section-list__item">
+                            <h3>{{product_feature_4_title}}</h3>
+                            <p>
+                                {{product_feature_4_description}}
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ▼▼▼ アコーディオン（仕様・注意事項） ▼▼▼ -->
+        <section class="accordion-section">
+            <div class="container">
+                <ul class="accordion-section-list">
+
+                    <!-- 仕様 -->
+                    <li id="specifications" class="accordion-group specification-group active">
+                        <h3 class="accordion-group__title specification-group__title">
+                            商品仕様
+                        </h3>
+                        <div class="accordion-group__content specification-group__content">
+                            <div class="accordion-group__content-inner">
+                                <!--
+                            ============================================================
+                            仕様テーブルの行増減について
+                            ・不要な行は <tr>〜</tr> ごと削除してください
+                            ・追加する場合は下記パターンをコピーして挿入してください：
+                              <tr><th>項目名</th><td>{{値}}</td></tr>
+                            ============================================================
+                            -->
+                                <table class="specification-group__table">
+                                    <tbody>
+                                        <tr>
+                                            <th>メーカー</th>
+                                            <!-- [入力箇所] メーカー名（正式社名） -->
+                                            <td>{{SPEC_MAKER}}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>商品名</th>
+                                            <!-- [入力箇所] 商品正式名称 -->
+                                            <td>{{SPEC_PRODUCT_NAME}}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>仕様</th>
+                                            <!--
+                                        [入力箇所] 仕様詳細
+                                        ・書式：●項目：データ<br>
+                                        ・品番・測定範囲・精度・電源・防水等級など商品に応じて記載
+                                        記入例：
+                                        ●品番：HI 98130N<br>
+                                        ●測定範囲：0〜199.9 mS/m<br>
+                                        ●精度：±0.5 mS/m<br>
+                                        ●電源：単4電池×4（付属）<br>
+                                        -->
+                                            <td>{{SPEC_ITEMS}}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>材質</th>
+                                            <!-- [入力箇所] 材質・素材 -->
+                                            <td>{{SPEC_MATERIAL}}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>付属品</th>
+                                            <!-- [入力箇所] 付属品一覧（なければ「-」） -->
+                                            <td>{{SPEC_ACCESSORIES}}</td>
+                                        </tr>
+                                        <tr>
+                                            <th>備考</th>
+                                            <!-- [入力箇所] 備考（認証・規格・その他） -->
+                                            <td>{{SPEC_NOTES}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- 注意事項 -->
+                    <li class="accordion-group caution-group active">
+                        <h3 class="accordion-group__title caution-group__title">
+                            注意事項
+                        </h3>
+                        <div class="accordion-group__content caution-group__content">
+                            <div class="accordion-group__content-inner">
+                                <p>
+                                    {{CAUTION_TEXT}}
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- 関連商品 -->
+        <section id="related">
+            <div class="container">
+                <h2 class="h2A">関連商品<small>RELACTED PRODUCTS</small></h2>
+                <div class="row itemArrange itemArrange--typeB">
+                    <div class="col-pc-6 col-sp-12">
+                        <a href="#" class="itemArrange__wrap bg--highlight">
+                            <span class="itemArrange__img">
+                                <img src="https://corekara.co.jp/wp-content/uploads/module//dummy800800.png"
+                                    alt="商品が入ります">
+                            </span>
+                            <span class="itemArrange__text alignCenter">
+                                <span class="itemArrange__textWrap">
+                                    <h3>商品名</h3>
+                                    <p class="itemArrange__mainText">
+                                        テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+                                    </p>
+                                    <span class="button arrow arrow--typeC"><span>詳しく見る</span></span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- <div class="col-pc-6 col-sp-12">
+                    <a href="#" class="itemArrange__wrap bg--highlight">
+                        <span class="itemArrange__img">
+                            <img src="https://corekara.co.jp/wp-content/uploads/module//dummy800800.png" alt="商品が入ります">
+                        </span>
+                        <span class="itemArrange__text alignCenter">
+                            <span class="itemArrange__textWrap">
+                                <h3>商品名</h3>
+                                <p class="itemArrange__mainText">テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
+                                <span class="button arrow arrow--typeC"><span>詳しく見る</span></span>
+                            </span>
+                        </span>
+                    </a>
+                </div> -->
+                </div><!-- /.row.itemArrange -->
+            </div><!-- /.container -->
+        </section>
+</div>
